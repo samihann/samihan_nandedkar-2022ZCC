@@ -1,0 +1,46 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/zcc-frontend/node_modules
+/zcc-frontend/.pnp
+/zcc-frontend/.pnp.js
+
+# testing
+/zcc-frontend/coverage
+
+# production
+/zcc-frontend/build
+
+# misc
+/zcc-frontend/.DS_Store
+/zcc-frontend/.env.local
+/zcc-frontend/.env.development.local
+/zcc-frontend/.env.test.local
+/zcc-frontend/.env.production.local
+
+/zcc-frontend/npm-debug.log*
+/zcc-frontend/yarn-debug.log*
+/zcc-frontend/yarn-error.log*
+
+
+
+/zcc-backend/node_modules
+/zcc-backend/.pnp
+/zcc-backend/.pnp.js
+
+# testing
+/zcc-backend/coverage
+
+# production
+/zcc-backend/build
+
+# misc
+/zcc-backend/.DS_Store
+/zcc-backend/.env.local
+/zcc-backend/.env.development.local
+/zcc-backend/.env.test.local
+/zcc-backend/.env.production.local
+
+/zcc-backend/npm-debug.log*
+/zcc-backend/yarn-debug.log*
+/zcc-backend/yarn-error.log*

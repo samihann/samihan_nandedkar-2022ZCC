@@ -1,0 +1,16 @@
+.my-modal {
+    width: 90vw;    /* Occupy the 90% of the screen width */
+    max-width: 90vw;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.error {
+    display: absolute;
+    text-align: center;
+    padding: 150px;
+}

@@ -93,9 +93,9 @@ const Navbar = () => {
         </Nav>
 
 
-        <ButtonContainer>
+        {/* <ButtonContainer>
           <Button onClick={()=> window.open("https://zccsamihann.zendesk.com", "_blank")}>zccsamihann.zendesk.com</Button>
-        </ButtonContainer>
+        </ButtonContainer> */}
 
       </NavbarWrap>
     </NavbarContainer>

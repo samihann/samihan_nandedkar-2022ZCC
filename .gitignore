@@ -27,6 +27,7 @@
 /zcc-backend/node_modules
 /zcc-backend/.pnp
 /zcc-backend/.pnp.js
+/zcc-backend/.env
 
 # testing
 /zcc-backend/coverage

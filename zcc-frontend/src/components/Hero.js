@@ -100,7 +100,7 @@ function Hero() {
   {(<Alert variant="info" show={viewAlert}>
         <Alert.Heading>Welcome.</Alert.Heading>
         <p>
-          All the tickets for account zccsamihann.zendesk.com are listed below. 
+          All the tickets for account are listed below. 
           <br/>
           <b>Please click on the ticket to view additional information for the same.</b>
         </p>
@@ -109,7 +109,7 @@ function Hero() {
 
   {!viewData && (<div className="loader"><ReactLoading type="bars" color="#1c47e6" height={'5%'} width={'5%'} /></div>)}
   {viewData && (<MUIDataTable 
-    title={"Tickets List | ZCCSAMIHANN"} 
+    title={"Tickets List"} 
     data={data} 
     columns={columns} 
     options={options}

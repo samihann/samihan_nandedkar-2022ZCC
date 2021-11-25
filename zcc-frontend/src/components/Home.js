@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import BgImg from '../assets/bkgimg.png';
 import { MdKeyboardArrowRight } from 'react-icons/md';
 import { useHistory } from "react-router-dom";
-import GitHubButton from 'react-github-button';
 import {AiFillGithub} from 'react-icons/ai'
 
 const Section = styled.section`
@@ -94,6 +93,7 @@ function Home () {
           </Title>
           <Desc>
             Hello! Welcome to TicketViewer Demo Application created for Zendesk Coding Challenge. 
+             By Samihan Nandedkar (svn2998@gmail.com)
           </Desc>
           <Button onClick={() => history.push('/alltickets')}>
             <span>View Tickets</span>

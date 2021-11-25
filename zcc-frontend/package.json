@@ -1,5 +1,5 @@
 {
-  "name": "react-stock-site-v1",
+  "name": "zcc-app-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +20,6 @@
     "react-bootstrap-table-next": "^4.0.3",
     "react-bootstrap-table2-paginator": "^2.1.2",
     "react-dom": "^17.0.2",
-    "react-github-button": "^0.1.11",
     "react-icons": "^4.3.1",
     "react-loading": "^2.0.3",
     "react-router": "^6.0.2",

@@ -1,8 +1,6 @@
 
 import React from 'react';
 import styled from 'styled-components';
-import BgImg from '../assets/bkgimg.png';
-import { MdKeyboardArrowRight } from 'react-icons/md';
 import { useHistory } from "react-router-dom";
 import {Card} from "react-bootstrap"
 import 'bootstrap/dist/css/bootstrap.min.css';

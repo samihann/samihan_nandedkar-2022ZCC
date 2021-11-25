@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { Button, Table, Form} from 'react-bootstrap';
 import axios from 'axios'
-import MUIDataTable from 'mui-datatables'
-import { useHistory } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BiError} from "react-icons/bi";
 

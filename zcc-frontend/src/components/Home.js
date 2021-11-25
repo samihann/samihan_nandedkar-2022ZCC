@@ -4,8 +4,8 @@ import styled from 'styled-components';
 import BgImg from '../assets/bkgimg.png';
 import { MdKeyboardArrowRight } from 'react-icons/md';
 import { useHistory } from "react-router-dom";
-
-
+import GitHubButton from 'react-github-button';
+import {AiFillGithub} from 'react-icons/ai'
 
 const Section = styled.section`
   background-image: url(${BgImg});
@@ -58,6 +58,23 @@ const Button = styled.a`
   box-shadow: 0 15px 14px rgb(0 42 177 / 12%);
 `;
 
+const Button1 = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  margin-top: 20px;
+  width: 371px;
+  height: 71px;
+  line-height: 71px;
+  font-size: 22px;
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+  background: linear-gradient(90deg, rgba(98,213,74,1) 0%, rgba(209,249,210,1) 100%);
+  text-decoration: none;
+  box-shadow: 0 15px 14px rgb(0 42 177 / 12%);
+`;
 
 function Home () {
   const history = useHistory();
@@ -82,6 +99,12 @@ function Home () {
             <span>View Tickets</span>
             <MdKeyboardArrowRight />
           </Button>
+          <Button1 onClick={()=> window.open("https://github.com/samihann/samihan_nandedkar-2022ZCC", "_blank")}>
+            <AiFillGithub />
+            <span>Navigate to Github Repo</span>
+            
+          </Button1>
+          
         </Left>
       </Content>
     </Section>

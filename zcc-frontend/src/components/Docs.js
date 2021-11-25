@@ -1,7 +1,7 @@
 
 import React from 'react';
 import styled from 'styled-components';
-import BgImg from '../assets/bkgimg.png';
+import BgImg from '../assets/docs.png';
 import { MdKeyboardArrowRight } from 'react-icons/md';
 import { useHistory } from "react-router-dom";
 
@@ -70,20 +70,7 @@ function Docs () {
   
   return (
     <Section>
-      <Content>
-        <Left>
-          <Title>
-            Welcome to <br/>TicketViewer Demo App.
-          </Title>
-          <Desc>
-            Hello! Welcome to TicketViewer Demo Application created for Zendesk Coding Challenge. 
-          </Desc>
-          <Button onClick={() => history.push('/alltickets')}>
-            <span>View Tickets</span>
-            <MdKeyboardArrowRight />
-          </Button>
-        </Left>
-      </Content>
+     
     </Section>
   );
 };

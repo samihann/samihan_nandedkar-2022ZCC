@@ -6,6 +6,7 @@ import SingleView from './components/SingleView';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AboutMe from './components/AboutMe';
 import Footer from './components/footer';
+import Docs from './components/Docs';
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/"  exact component={Home} />
         <Route path="/alltickets" component={Hero} />
         <Route path="/singleticket" component={SingleView} />
+        <Route path="/docs" component={Docs} />
         <Route path="/aboutme" component={AboutMe} />
     </Switch>
     <br/>

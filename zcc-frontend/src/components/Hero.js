@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { Modal, Table, Button, Alert} from 'react-bootstrap';
 import axios from 'axios'
 import MUIDataTable from 'mui-datatables'
-import { useHistory } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './modal.css'
 import ReactLoading from 'react-loading';

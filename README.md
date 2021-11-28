@@ -111,12 +111,8 @@ Please install the given software using the steps given below.
    ```sh
    npm install
    ```
-4. Start the backend Express server by running the following command.
-   ```sh
-   npm start
-   ```
-5. To setup the required authentication in place, please copy the sample .env file present in root directory to zcc-backend. 
-6. Enter all the required details in .env file.
+4. To setup the required authentication in place, please copy the sample .env file present in root directory to zcc-backend. 
+5. Enter all the required details in .env file.
   * Input Domian for the account used to fetch the details. 
   * Enter the Auth type to be used to fetch details out of Token/Basic
   * Enter token value if AuthType of Token is entered. 
@@ -130,6 +126,10 @@ Please install the given software using the steps given below.
  AuthType = Basic
  ![Basic-Env-FIle](docs/images/envtest2.png)
 
+6. Start the backend Express server by running the following command.
+   ```sh
+   npm start
+   ```
 7. Navigate to zcc-frontent directory
 8. Install all the NPM packages required for the directory
 
@@ -142,8 +142,18 @@ Please install the given software using the steps given below.
    npm start
    ```
 
-THe server should be accessible at http://localhost:3000/
+The application should be accessible at http://localhost:3000/
+
+The backend express should be accessible at http://localhost:5000/
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+## React & Express Endpoints
+* Frontend: Port 3000 (http://localhost:3000/)
+* Backend: Port 5000 
+    * GET /all-tickets
+    * POST /single-tickets
+      * Payload body: {ticketId: "<ticket-no.>"}
 
 <!-- Deployment -->
 ## Deployment

@@ -12,16 +12,20 @@
   <p align="center">
     2022 Internship Zendesk Coding Challenge
     <br />
-    <a href="#"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     ·
-    <a href="#">View Demo</a>
+    <a href="https://zcc-app-samihann.herokuapp.com/"><strong>View Demo</strong></a>
     ·
   </p>
 </div>
 
+<br/>
 
+| Name        | Samihan Nandedkar|
+| ------------- |:-------------:| 
+| Email     | svn2998@gmail.com |
+
+<br/>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -40,12 +44,14 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
+    <li><a href="#deployment">Deployment</a></li>
+    <li><a href="#testing">Testing</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
-
+<br/>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -54,7 +60,7 @@
 
 This project is created as a submission for 2022 Internship Zendesk Coding Challenge. The project is a full stack application with React frontend and Express backend. 
 
-THe application is able to perform following tasks:
+The application is able to perform following tasks:
 * It is able to connect to Zendesk API using OAuth Token. (Token just has Read access)
 * Fetch all the tickets for a particular account.
 * Display the tickets in systematics format with pagination options.
@@ -138,6 +144,41 @@ Please install the given software using the steps given below.
 
 THe server should be accessible at http://localhost:3000/
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Deployment -->
+## Deployment
+
+The application deployed on Heroku. 
+Please go to the following link to view the demo application. 
+
+Demo Application: https://zcc-app-samihann.herokuapp.com/
+
+![Deployment](/docs/images/deployment.png)
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+## Testing
+
+Tools Used: Jest, Supertest
+
+To run the test cases, please navigate to zcc-frontend/zcc-backend directory and run the following command. 
+
+ ```sh
+   npm test
+ ```
+
+**Frontend React:**
+
+The unit test are written to check if the components are getting loaded correctly for all the pages. 
+
+![Test-1](docs/images/test1.png)
+
+**Backend Express:**
+
+The tests are written to check if the API endpoints are responding with correct status code. 
+
+![Test-1](docs/images/test2.png)
+
 
 
 <!-- CONTACT -->

@@ -1,14 +1,14 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import Navbar from './Navbar'
+import Home from './Home'
 import Enzyme, { mount, shallow, render } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
 Enzyme.configure({ adapter: new Adapter() });
 
-describe('Navbar', () => {
+describe('Home', () => {
     it('should render correctly', () => {
-        const component = shallow(<Navbar />);
+        const component = shallow(<Home />);
       
         expect(component).toMatchSnapshot();
       });

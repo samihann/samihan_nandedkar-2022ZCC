@@ -1,14 +1,13 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import Navbar from './Navbar'
 import Enzyme, { mount, shallow, render } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-
+import SingleView from './SingleView'
 Enzyme.configure({ adapter: new Adapter() });
 
-describe('Navbar', () => {
+describe('SingleView', () => {
     it('should render correctly', () => {
-        const component = shallow(<Navbar />);
+        const component = shallow(<SingleView />);
       
         expect(component).toMatchSnapshot();
       });

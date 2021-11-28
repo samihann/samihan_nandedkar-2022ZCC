@@ -17,6 +17,7 @@ function SingleView() {
   const [id, setId] = useState("")
   const [viewTable, setViewTable] = useState(false)
   const [gotError, setGotError] = useState(false);
+  const [notFound, setNotFound] = useState(false);
 
   function updateInput(e){
     e.preventDefault()
@@ -32,6 +33,7 @@ function SingleView() {
       console.log(tickets1)
       setData(tickets1)
       setViewTable(true)
+      setNotFound(true)
       })
     .catch(error => {
       setGotError(true)
@@ -69,6 +71,19 @@ function SingleView() {
       Data could not be fetched.
     </div>
   )}
+
+  {(notFound && data==undefined) &&
+  (
+    <div className="error">
+      <BiError size={80}/>
+      <br/>
+      <br/> 
+      No Records Found
+    </div>
+  )
+
+  }
+
   {(viewTable && data && !gotError) && (<Table>
             <thead>
               <tr>

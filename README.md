@@ -155,6 +155,21 @@ The backend express should be accessible at http://localhost:5000/
     * POST /single-tickets
       * Payload body: {ticketId: "<ticket-no.>"}
 
+## Error Handling
+
+The application is equiped with error handling to showcase an appropriate error to the user on the frontend. 
+
+For example, please look as couple of examples shown below.
+
+* If the backend is not able to fetch the data from the Zendesk API, it will showcase the error to the frontend without crashing the application. 
+
+![Error-1](/docs/images/error_handling2.png)
+
+* If the user gives input of a ticket ID which is not present, the error message is presented to the user.
+
+![Error-2](/docs/images/error_handling1.png)
+
+
 <!-- Deployment -->
 ## Deployment
 

@@ -61,9 +61,9 @@
 This project is created as a submission for 2022 Internship Zendesk Coding Challenge. The project is a full stack application with React frontend and Express backend. 
 
 The application is able to perform following tasks:
-* It is able to connect to Zendesk API using OAuth Token. (Token just has Read access)
+* It is able to connect to Zendesk API using OAuth Token / Basic Authentication . (Token just has Read access)
 * Fetch all the tickets for a particular account.
-* Display the tickets in systematics format with pagination options.
+* Display the tickets in systematic format with pagination options.
 * Display information about a individual ticket by POST request to Zendesk API with ticket id.
 
 Please refer below to view the project structure. 
